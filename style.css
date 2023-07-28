@@ -1,0 +1,231 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(0, 0, 33);
+  color: white;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  background: linear-gradient(300deg, #e7edf3, #0d1717, #2a43b3);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(107, 107, 240);
+  height: 100px;
+  width: 100%;
+  top: 0;
+  position: fixed;
+  margin-bottom: 50px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 23px;
+  list-style: none;
+}
+
+.left {
+  font-size: 1.5rem;
+}
+
+.firstSection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  padding-top: 200px;
+
+  height: 55vh;
+}
+
+.firstSection > div {
+  width: 35%;
+}
+
+.leftSection {
+  /* background-color: red; */
+  font-size: 2rem;
+  margin-left: 250px;
+}
+
+.rightSection > img {
+  border-radius: 100px;
+  box-shadow: 10px 10px 5px rgb(107, 107, 240);
+}
+
+.name {
+  color: rgb(107, 107, 240);
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+nav ul li a:hover {
+  color: aqua;
+  font-size: 1.02rem;
+}
+
+#element {
+  color: rgb(115, 150, 216);
+}
+
+.fs-2 {
+  background-color: rgb(140, 188, 230);
+  border-radius: 10px;
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.inst {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.detail,
+.gpa {
+  font-size: 15px;
+  list-style: none;
+  font-style: italic;
+}
+
+.gpa {
+  font-style: normal;
+  font-weight: bold;
+}
+
+.badge {
+  padding: 20px;
+  margin: 20px;
+  border: 20px;
+}
+
+.pb-2 {
+  font-weight: bold;
+}
+
+.box {
+  margin: auto;
+  /* padding:100px; */
+  height: 180px;
+  margin-top: 20px;
+
+  border-radius: 20px;
+  background-color: rgba(159, 182, 202, 0.354);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.box1 {
+  margin: 0px 50px;
+  padding: 50px;
+  /* background-color: red; */
+}
+
+.box2 {
+  margin: 0px 50px;
+  padding: 50px;
+}
+
+.summary {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(255, 252, 252);
+}
+
+#skills,
+#projects {
+  margin-top: -100px;
+  padding-top: 80px;
+}
+.resume-github {
+  margin-top: 10px;
+}
+
+.projects-container {
+  border-radius: 20px;
+  background-color: rgba(159, 182, 202, 0.354);
+  height: 250px;
+  width: 100%;
+  padding: 30px;
+}
+.project-btn {
+  margin-right: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.669);
+  color: black;
+  font-weight: bold;
+
+}
+
+.project-btn:hover{
+  background-color: rgb(112, 112, 245);;
+}
+footer {
+  background-color: rgb(62, 62, 178);
+
+  height: 140px;
+  width: 100%;
+  padding: 10px;
+}
+
+.footer-head {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-list,
+.footer-list ul li {
+  display: flex;
+  background-color: inherit;
+  list-style: none;
+}
+
+.img {
+  border-radius: 5px;
+  margin: 5px 8px;
+}
+
+.heading {
+  margin-left: 45px;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-left: 40px;
+  margin-bottom: 0px;
+}
+.name1 {
+  color: blanchedalmond;
+}
